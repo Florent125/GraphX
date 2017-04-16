@@ -13,8 +13,22 @@ import fr.octave.pause.GrapX.Block;
  */
 public class Source extends Block{
     
-    public Source(int x, int y, int X, int Y, int Nb_output, String ID) {
+    protected String OutputName;
+    protected double period;
+    
+    public Source(int x, int y, int X, int Y, int Nb_output, String ID, double period) {
         super(x, y, X, Y, 0, Nb_output, ID); //Nb_input= 0
+        this.period= period;
     }
+
+    public String getOutputName() {
+        return this.OutputName;
+    }
+
+    public void setOutputName(String OutputName) {
+        this.OutputName = OutputName;
+    }
+    
+    
     
 }

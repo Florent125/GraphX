@@ -16,7 +16,7 @@ public class Correcteur extends Block{
     //private double Ks; //for discrete system
     
     public Correcteur(int x, int y, int X, int Y, String ID, String InputName, String OutputName) {
-        super(x, y, X, Y, 1, 1, ID); //1 input and 1 output
+        super(x, y, X, Y, 1, 1, "Controller"+ID); //1 input and 1 output
         
         this.InputName= InputName;
         this.OutputName= OutputName;
@@ -27,6 +27,14 @@ public class Correcteur extends Block{
         this.Kd= 0.0;
         this.Tf= 0.0;
     }
+
+    @Override
+    public String toString() {
+        String ans= this.ID + "=" + "pid("+ this.Kp+ "," + this.Ki + "," + this.Kd + "," + this.Tf + ")";
+        return ans;
+    }
+    
+    
 
     public String getInputName() {
         return this.InputName;

@@ -11,8 +11,8 @@ package fr.octave.pause.GrapX.Source;
  */
 public class Ramp extends Source{
     
-    public Ramp(int x, int y, int X, int Y, int Nb_output, String ID) {
-        super(x, y, X, Y, Nb_output, ID);
+    public Ramp(int x, int y, int X, int Y, int Nb_output, String ID, double period) {
+        super(x, y, X, Y, Nb_output, ID, period);
     }
     
 }

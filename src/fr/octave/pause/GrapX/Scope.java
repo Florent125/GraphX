@@ -11,8 +11,20 @@ package fr.octave.pause.GrapX;
  */
 public class Scope extends Block{
     
+    private String InputName;
+    
     public Scope(int x, int y, int X, int Y, String ID) {
         super(x, y, X, Y, 1, 0, ID); //Nb_input=1, Nb_ouput= 0;
     }
+
+    public void setInputName(String InputName) {
+        this.InputName = InputName;
+    }
+
+    public String getInputName() {
+        return this.InputName;
+    }
+    
+    
     
 }

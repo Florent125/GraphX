@@ -42,6 +42,30 @@ public class Transfer_Function extends Block {
         this.OutputName= "y" + this.number;
     }
 
+    @Override
+    public String toString() {
+        int i= 0;
+        
+        String num= "[";
+        int n= this.numerator.length;
+        for(i=0; i<n; i++){
+            num= num+ " " + this.numerator[i];
+        }
+        num= num+ "]";
+        
+        String den= "[";
+        n= this.denominator.length;
+        for(i=0; i<n; i++){
+            den= den+ " " + this.denominator[i];
+        }
+        den= den+ "]";
+        
+        String ans= this.ID + "= tf(" + num + " , " + den + ");";
+        return ans;
+    }
+    
+    
+
     public double[] getNumerator() {
         return this.numerator;
     }
