@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fr.octave.pause.GrapX.Source;
+package fr.octave.pause.GraphX.Source;
 
-import fr.octave.pause.GrapX.Block;
+import fr.octave.pause.GraphX.Block;
 
 /**
  *
@@ -29,6 +29,13 @@ public class Source extends Block{
         this.OutputName = OutputName;
     }
     
+    public void setPeriod(double period) {
+        this.period = period;
+    }
+
+    public double getPeriod() {
+        return this.period;
+    }
     
     
 }

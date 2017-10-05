@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fr.octave.pause.GrapX;
-
-import java.util.ArrayList;
+package fr.octave.pause.GraphX;
 
 /**
  *
@@ -22,10 +20,9 @@ public class Transfer_Function extends Block {
         int d= denominator.length;
         this.numerator= new double[n];
         this.denominator= new double[d];
-        
-        int i=0;        
-        for(i=0; i<n; i++){this.numerator[i]= numerator[i];}
-        for(i=0; i<d; i++){this.denominator[i]= denominator[i];}
+                
+        System.arraycopy(numerator, 0, this.numerator, 0, n);
+        System.arraycopy(denominator, 0, this.denominator, 0, d);
         
         
         this.InputName= InputName;
@@ -44,7 +41,7 @@ public class Transfer_Function extends Block {
 
     @Override
     public String toString() {
-        int i= 0;
+        int i;
         
         String num= "[";
         int n= this.numerator.length;

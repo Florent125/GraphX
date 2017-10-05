@@ -3,14 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GrapX/Source/Source.java</file>
-            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GrapX/Source/Step.java</file>
-            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GrapX/Scope.java</file>
-            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GrapX/Source/Ramp.java</file>
-            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GrapX/Main.java</file>
-            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GrapX/Systeme.java</file>
-            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GrapX/Transfer_Function.java</file>
-            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GrapX/Correcteur.java</file>
+            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GraphX/Block.java</file>
+            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GraphX/Systeme.java</file>
+            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GraphX/Scope.java</file>
+            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GraphX/Link/Link.java</file>
+            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GraphX/Main.java</file>
+            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GraphX/SumBlock.java</file>
+            <file>file:/C:/Users/flore/Documents/NetBeansProjects/GraphX/src/fr/octave/pause/GraphX/Source/Step.java</file>
         </group>
     </open-files>
 </project-private>

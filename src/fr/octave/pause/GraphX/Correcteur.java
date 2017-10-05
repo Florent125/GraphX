@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fr.octave.pause.GrapX;
+package fr.octave.pause.GraphX;
 
 /**
  *
@@ -30,7 +30,7 @@ public class Correcteur extends Block{
 
     @Override
     public String toString() {
-        String ans= this.ID + "=" + "pid("+ this.Kp+ "," + this.Ki + "," + this.Kd + "," + this.Tf + ")";
+        String ans= this.ID + "=" + "pid("+ this.Kp+ "," + this.Ki + "," + this.Kd + "," + this.Tf + ");";
         return ans;
     }
     

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fr.octave.pause.GrapX;
+package fr.octave.pause.GraphX;
 
 /**
  *
@@ -25,6 +25,13 @@ public class Block {
         this.ID= ID;
         this.number= 0;
     }
+
+    @Override
+    public String toString() {
+        return "It is a Block. The ID is " + this.ID;
+    }
+    
+    
 
     public int get_posX() {
         return x;
@@ -54,6 +61,10 @@ public class Block {
         return ID;
     }
 
+    public int getNumber() {
+        return this.number;
+    }
+   
     public void set_posX(int x) {
         this.x = x;
     }

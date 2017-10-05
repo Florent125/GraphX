@@ -3,18 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fr.octave.pause.GrapX.Source;
+package fr.octave.pause.GraphX.Source;
 
 /**
  *
  * @author flore
  */
-public class Step extends Source{
-
-    public Step(int x, int y, int X, int Y, int Nb_output, String ID, double period) {
+public class Ramp extends Source{
+    
+    public Ramp(int x, int y, int X, int Y, int Nb_output, String ID, double period) {
         super(x, y, X, Y, Nb_output, ID, period);
     }
 
+    @Override
+    public String toString() {
+        return "ramp(";
+    }
+    
     
     
 }
