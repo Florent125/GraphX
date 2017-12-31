@@ -16,6 +16,7 @@ public class Source extends Block{
     protected String OutputName;
     protected double period;
     
+    
     public Source(int x, int y, int X, int Y, int Nb_output, String ID, double period) {
         super(x, y, X, Y, 0, Nb_output, ID); //Nb_input= 0
         this.period= period;
