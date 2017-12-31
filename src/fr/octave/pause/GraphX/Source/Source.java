@@ -15,13 +15,21 @@ public class Source extends Block{
     
     protected String OutputName;
     protected double period;
-    
+    protected static int nbSource=0;
     
     public Source(int x, int y, int X, int Y, int Nb_output, String ID, double period) {
         super(x, y, X, Y, 0, Nb_output, ID); //Nb_input= 0
         this.period= period;
     }
 
+    public void addSource(){
+        nbSource++;
+    }
+    
+    public void removeSource(){
+        nbSource += -1;
+    }
+    
     public String getOutputName() {
         return this.OutputName;
     }
